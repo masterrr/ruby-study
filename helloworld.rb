@@ -5,7 +5,10 @@ p [1, 2, 3, 4] #=> [1, 2, 3, 4] #Вывод без перевода строки
 puts 2+2 #=> 4
 p 2+2 #=> 4
 print 'testprint ' #Вывод без переноса
-print 'contin'
+print 'contin\n\n' #print с переносом - не стоит так делать ;)
+puts '\'screening test\'' #Экранирование
+puts "Tabulation\ttest" #Табуляция. Внимание, двойные кавычки!
+
 
 =begin
 Long comment
