@@ -1,7 +1,7 @@
 #encoding: utf-8
 command = ''
 while command != 'пока'
+  command = gets.chomp  
   puts command
-  command = gets.chomp
 end
 puts 'Bye!'
