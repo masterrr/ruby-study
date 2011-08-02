@@ -1,15 +1,16 @@
 cat = true
 dog = false
-
-puts cat and dog #=> true #Т.е and проверяет первый операнд, если true - то true, false - false
-puts dog and cat #=> false #Т.е and проверяет первый операнд, если true - то true, false - false
-puts cat and cat #=> true
-puts dog and dog #=> false
+#and 2 значения должны быть true
+puts cat && dog #=> false 
+puts dog && cat #=> false 
+puts cat && cat #=> true
+puts dog && dog #=> false
 puts ''
-puts cat or dog #=> true
-puts dog or cat #=> false
-puts cat or cat #=> true
-puts dog or dog #=> false
+#or хотя бы одно значение должно быть true
+puts cat || dog #=> true
+puts dog || cat #=> true
+puts cat || cat #=> true
+puts dog || dog #=> false
 puts ''
 puts (not dog) #=> true
 puts (not cat) #=> false
