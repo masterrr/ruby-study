@@ -15,6 +15,5 @@ puts 'мама' < 'папа' # м раньше п в алфавите
 # but 
 puts 'cat' < 'Dog' #=> false # Заглавные буквы перед строчными ABCDabcd
 puts 'cat' < 'Dog'.downcase #=> true
-### ramification
 
 
