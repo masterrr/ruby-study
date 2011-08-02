@@ -40,5 +40,8 @@ puts fav.length #количество объектов в массиве
 puts fav.pop #удаляет последний объект в массиве
 puts fav #вывод всего массива, собственно
 puts fav.length
+### sort
+array9 = ['cat', 'arm', 'dog', 'xfiles', 'here', 'nokia', 'ruby']
+puts array9.sort
 
 
