@@ -2,7 +2,7 @@
 puts 'Как вас зовут?'
 name = gets.chomp
 puts 'Привет, ' + name + '.'
-if name == 'Дима'
+if (name == 'Дима' or name == 'Гоша')
   puts 'Крутое имя ;)'
 else
   puts 'Неплохое имя :)'
